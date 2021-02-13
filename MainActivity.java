@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         AIText.setText(savedInstanceState.getString("AiTxt"));
         //reloads array values
         arr[0][0] = savedInstanceState.getInt("one");
-        arr[0][1] = savedInstanceState.getInt("twp");
+        arr[0][1] = savedInstanceState.getInt("two");
         arr[0][2] = savedInstanceState.getInt("three");
         arr[1][0] = savedInstanceState.getInt("four");
         arr[1][1] = savedInstanceState.getInt("five");
